@@ -4,15 +4,15 @@ body {
 
 .image-container {
     display: flex;
-    flex-wrap: wrap;              /* allows wrapping */
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
-    max-width: 900px;             /* rectangle width */
-    margin: 40px auto;            /* center horizontally */
+    max-width: 900px;
+    margin: 40px auto;
     padding: 20px;
 
-    background-color: #ffd6e8;    /* optional cute bg */
+    background-color: #ffd6e8;
     border-radius: 20px;
     gap: 15px;
 }
@@ -71,4 +71,5 @@ body {
   
 h1 {
     font-family: "Courier New", Courier, monospace;
-    text-align: cent
+    text-align: center;
+}
