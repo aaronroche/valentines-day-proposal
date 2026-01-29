@@ -1,0 +1,74 @@
+body {
+    background-color: pink;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;              /* allows wrapping */
+    justify-content: center;
+    align-items: center;
+
+    max-width: 900px;             /* rectangle width */
+    margin: 40px auto;            /* center horizontally */
+    padding: 20px;
+
+    background-color: #ffd6e8;    /* optional cute bg */
+    border-radius: 20px;
+    gap: 15px;
+}
+
+.image-container img {
+    width: 30%;
+    height: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.vgif {
+    padding: 50px;
+    text-align: center;
+}
+
+.btn a {
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: none;
+    color: #111;
+    background: #fff;
+    padding: 10px 25px;
+    border-radius: 66px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    gap: 20px;
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+  
+.page-image {
+    padding-top: 0;
+}
+  
+h1 {
+    font-family: "Courier New", Courier, monospace;
+    text-align: cent
